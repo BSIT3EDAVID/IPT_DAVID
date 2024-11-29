@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('../img/banner4.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center; 
+    flex-grow: 1; 
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin-left: 10rem;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.top-images {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10rem;
+    margin-right: 35rem;
+}
+
+.top-images img {
+    width: 330px; 
+    height: 330px; 
+    margin: 0 10px;
+    border: 5px solid white; 
+    border-radius: 10px; 
+}
+
+.middle-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.middle-images img {
+    width: 300px; 
+    height: auto; 
+    margin: 0 10px;
+}
+
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text-section {
+    flex: 1;
+    /* Add font styles, colors, and spacing here */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .image-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 30%; /* For a circular profile picture */
+  }
